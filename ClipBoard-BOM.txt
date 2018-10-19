@@ -1,0 +1,12 @@
+Partlist exported from /Users/evanhowell/git/ClipBoard/ClipBoard-V1.1.sch at 10/18/18 6:25 PM
+
+Part Value   Device     Package  Description         
+D3   RED     LED3MM     LED3MM                       
+D4   RED     LED3MM     LED3MM                       
+D5   1N34A   DO07       DO07     DO-07 Package       
+D6   1N34A   DO07       DO07     DO-07 Package       
+IN   CLIPIN  PAD        SQUARE   PAD                 
+OUT  CLIPOUT PAD        SQUARE   PAD                 
+Q1   IRF520  IRF520     TO220BV  HEXFET Power MOSFET 
+Q2   IRF520  IRF520     TO220BV  HEXFET Power MOSFET 
+SW1  DPDT    DPDTDPDT_2 DPDT_PCB                     

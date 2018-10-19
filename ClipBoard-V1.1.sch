@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -526,16 +526,40 @@ grid 2.54 mm</description>
 <plain>
 </plain>
 <instances>
-<instance part="IN" gate="G$1" x="-10.16" y="60.96" rot="R180"/>
-<instance part="OUT" gate="G$1" x="-10.16" y="38.1" rot="R180"/>
-<instance part="D3" gate="G$1" x="12.7" y="50.8" rot="R90"/>
-<instance part="D4" gate="G$1" x="17.78" y="53.34" rot="R270"/>
-<instance part="Q1" gate="G$1" x="25.4" y="60.96"/>
-<instance part="Q2" gate="G$1" x="40.64" y="48.26" rot="R180"/>
-<instance part="D5" gate="G$1" x="27.94" y="48.26" rot="R90"/>
-<instance part="D6" gate="G$1" x="38.1" y="60.96" rot="R270"/>
-<instance part="SW1" gate="_A" x="2.54" y="60.96" rot="MR90"/>
-<instance part="SW1" gate="_B" x="2.54" y="38.1" rot="R270"/>
+<instance part="IN" gate="G$1" x="-10.16" y="60.96" rot="R180">
+<attribute name="NAME" x="-10.16" y="58.42" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="OUT" gate="G$1" x="-10.16" y="38.1" rot="R180">
+<attribute name="NAME" x="-10.16" y="35.56" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="D3" gate="G$1" x="12.7" y="50.8" rot="R90">
+<attribute name="NAME" x="11.176" y="53.848" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="D4" gate="G$1" x="17.78" y="53.34" rot="R270">
+<attribute name="NAME" x="19.304" y="50.292" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="Q1" gate="G$1" x="25.4" y="60.96">
+<attribute name="NAME" x="24.384" y="55.626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="22.352" y="57.658" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="Q2" gate="G$1" x="40.64" y="48.26" rot="R180">
+<attribute name="NAME" x="41.91" y="53.34" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="43.942" y="51.054" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="D5" gate="G$1" x="27.94" y="48.26" rot="R90">
+<attribute name="NAME" x="25.9334" y="44.704" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="31.5214" y="43.942" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="D6" gate="G$1" x="38.1" y="60.96" rot="R270">
+<attribute name="NAME" x="40.1066" y="64.516" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="34.5186" y="65.278" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
+<instance part="SW1" gate="_A" x="2.54" y="60.96" rot="MR90">
+<attribute name="NAME" x="-5.207" y="56.515" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="SW1" gate="_B" x="2.54" y="38.1" rot="R270">
+<attribute name="NAME" x="-5.207" y="42.545" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>

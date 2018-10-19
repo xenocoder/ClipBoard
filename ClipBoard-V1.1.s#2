@@ -513,8 +513,8 @@ grid 2.54 mm</description>
 <parts>
 <part name="IN" library="mb_supply" deviceset="PAD" device="" value="CLIPIN"/>
 <part name="OUT" library="mb_supply" deviceset="PAD" device="" value="CLIPOUT"/>
-<part name="D3" library="mb_diodes" deviceset="LED" device="3MM" value="4148"/>
-<part name="D4" library="mb_diodes" deviceset="LED" device="3MM" value="4148"/>
+<part name="D3" library="mb_diodes" deviceset="LED" device="3MM" value="RED"/>
+<part name="D4" library="mb_diodes" deviceset="LED" device="3MM" value="RED"/>
 <part name="Q1" library="transistor-power" deviceset="IRF520" device=""/>
 <part name="Q2" library="transistor-power" deviceset="IRF520" device=""/>
 <part name="D5" library="mb_diodes" deviceset="DO07" device="" value="1N34A"/>
